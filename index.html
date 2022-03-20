@@ -12,48 +12,50 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Lobster&display=swap" rel="stylesheet">
 </head>
 <body>
     
   <!-------------Home--------------->
-<header id="home">
-    <nav class="navbar navbar-expand-lg navigation-wrap">
-        <div class="container-fluid ms-2">
-         
-          <a class="navbar-brand fs-2 fw-bolder px-4 fixed-top bg-dark" href="home"><span class="text-danger">HAIRCUT</span></a>
-         <!-- <span class="material-icons p-2 bg-danger text-white rounded">content_cut</span>---->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse fixed-top mt-2 m-3 px-4" id="navbar-nav">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex">
-              <li class="nav-item">
-                <a class="nav-link active mt-2 text-primary" aria-current="page" href="#home">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white mt-2" href="#about">ABOUT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white mt-2" href="#services">SERVICES</a>
-              </li>
-              <li class="nav-item dropdown mt-2">
-                <a class="nav-link dropdown-toggle text-white" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="worker">
-                  WORKERS</a>
+  <header id="home">
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark px-4 fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand text-danger fs-3 fw-bolder bg-white rounded p-1 m-1" href="#">HAIRCUT</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon bg-white rounded"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active mt-2 text-info fw-bold" aria-current="page" href="#home">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white mt-2 fw-bold" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white fw-bold mt-2" href="#services">SERVICES</a>
+          </li>
 
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#worker">PRICE & PLAN</a></li>
-                  <li><a class="dropdown-item" href="#barber">OUR BARBER</a></li>
-                  <li><a class="dropdown-item" href="#hours">WORKING HOURS</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link bg-danger text-white fw-bold p-2 m-2" href="#contact">Appointment</a>
-              </li>
-             
+          <li class="nav-item dropdown mt-2">
+            <a class="nav-link dropdown-toggle text-white fw-bold" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="worker">
+              WORKERS</a>
+
+            <ul class="dropdown-menu text-white" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#worker">PRICE & PLAN</a></li>
+              <li><a class="dropdown-item" href="#barber">OUR BARBER</a></li>
+              <li><a class="dropdown-item" href="#hours">WORKING HOURS</a></li>
             </ul>
-          </div>
-        </div>
-      </nav>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link bg-danger text-white fw-bold p-2 m-2 text-center" href="#contact">APPOINTMENT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">

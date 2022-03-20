@@ -3,8 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
 .carousel-item img{
     width: 100%;
     height: 85vh;
@@ -22,3 +20,11 @@ h1{
     width: 100%;
     height: 45vh;
 }
+
+@media (max-width: 778px){
+        .carousel-item img{
+            width: 100%;
+            height: 70vh;
+        }
+       
+    }
